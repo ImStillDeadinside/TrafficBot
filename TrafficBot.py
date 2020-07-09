@@ -2,9 +2,9 @@ import webbrowser
 import os
 import time
 
-url = 'https://github.com/ghsecurity/LinuxCheatSheet'
+url = '<url to visit>'
 
-tor_path="C:\\Users\\etern\\OneDrive\\Desktop\\Tor Browser\\Browser\\firefox.exe"
+tor_path="<path to Tor Browser>"
 webbrowser.register('tor', None, webbrowser.BackgroundBrowser(tor_path))
 webbrowser.get('tor').open(url)
 time.sleep(15)
